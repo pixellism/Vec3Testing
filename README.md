@@ -17,3 +17,16 @@ git add .
 ```
 git commit -am "Initial Commit"
 ```
+
+4. Remove unwanted git files from version control
+
+```
+git rm test MakeFile *.o *.pro.user
+```
+
+-new commit
+```
+git commit -am "removed unwanted files
+```
+
+5. .gitignore file
